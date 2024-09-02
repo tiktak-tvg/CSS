@@ -291,7 +291,7 @@ E::after
 </head>
 <body>
 <header class = "header-site">
-  <h1 class="top">ФАКТ</h1>
+  <h1 class="top">Оглавление</h1>
   <nav class="main-menu">
      <ul>
         <li><a href="#" class="item">О нас</a></li>
