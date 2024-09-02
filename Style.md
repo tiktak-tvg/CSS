@@ -5,7 +5,8 @@
 <title>Document</title>
 <script>
 </script>
-Стиль подключается при помощи тега ``` **<link>** ```
+Стиль подключается при помощи тега ``` **<link>**
+```
 <link rel="stylesheet" href="Folder/styles.css" />
 <style>
 h1{
@@ -29,4 +30,4 @@ p{
 
 </body>
 </html>
-```
+
