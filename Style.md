@@ -126,9 +126,59 @@ h3 {
 </html>
 ```
 
+#### Цвет фона для всей веб-страницы.
 
+```
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body style="background-color:#e0e0e0">
+	<h2 style="background-color:YellowGreen;">YellowGreen</h2>
+	<h2 style="background-color:rgb(154, 205, 50);">rgb(154, 205, 50)</h2>
+	<h2 style="background-color:rgba(154, 205, 50, 1.0);">rgba(154, 205, 50, 1.0)</h2>
+	<h2 style="background-color:#9ACD32;">#9ACD32</h2>
+	<h2 style="background-color:hsl(80, 61%, 50%);">hsl(80, 61%, 50%)</h2>
+	<h2 style="background-color:hsla(80, 61%, 50%, 1.0);">hsla(80, 61%, 50%, 1.0)</h2>
+</body>
+</html>
+```
 
+#### Установить цвет фона для всей веб-страницы.
 
+```
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body style="background-color:#E0FFFF;">
+	<h2>Как установить цвет фона для всей веб-страницы?</h2>
+	<p>Добавьте атрибут style в раздел body и примените свойство background-color, чтобы указать цвет, используя название цвета, код RGB, HEX или HSL</p>
+</body>
+</html>
+```
+
+#### Используем внутренний CSS для установки цвета фона для всей страницы.
+
+```
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+	body {
+		background-color:#FFFFE0;
+	}
+</style>
+</head>
+<body>
+	<h2>Как установить цвет фона для всей веб-страницы?</h2>
+	<p>Добавьте атрибут style в раздел body и примените свойство background-color, чтобы указать цвет, используя название цвета, код RGB, HEX или HSL</p>
+</body>
+</html>
+```
 
 
 
