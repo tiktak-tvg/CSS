@@ -254,3 +254,52 @@ rem - относительная величина размера шрифта.  
 
 :pseudo-class-name
 
+Псевдоэлементы – это селекторы, которые определяют область элементов, которая изначально отсутствует в дереве документа. Эта область создается искусственно с помощью CSS.
+
+Ключевое отличие между ними в том, что псевдоклассы определяют именно состояние элементов, которые уже существуют на странице, а псевдоэлементы создают области (искусственные элементы), которых изначально на веб-странице не было.<br> 
+Но и те и другие отсутствуют в исходном коде документа.
+
+список псевдоэлементов:
+
+E::first-line
+
+E::first-letter
+
+E::before
+
+E::after
+
+Здесь, E-  элемент, к которому применяется селектор.
+
+> Пример.
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HTML структура документа</title>
+<style>
+	.main-menu ul li a:hover{
+		color: yellow;
+	}
+	<!-- или обратится по классу -->
+<!-- 	.item:hover{
+		color: yellow;
+	} -->
+</style>
+</head>
+<body>
+<header class = "header-site">
+  <h1 class="top">ФАКТ</h1>
+  <nav class="main-menu">
+     <ul>
+        <li><a href="#" class="item">О нас</a></li>
+        <li><a href="#" class="item">Контакты</a></li>
+     </ul>
+  </nav>
+</header>
+<a href="about.html">Ссылка на каритнку</a>
+</body>
+</html>
+```
