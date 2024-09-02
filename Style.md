@@ -1,31 +1,38 @@
+## Цвет текста с помощью имен цветов HTML.
+####Стиль подключается при помощи атрибута style и раскрашиваем по тегам.
+
 ```
-<!DOCTYPE html>
-<head>
-<meta charset="UTF-8">
-<title>Document</title>
-<script>
-</script>
-Стиль подключается при помощи тега `link`
-<link rel="stylesheet" href="Folder/styles.css" />
-<style>
-h1{
-background-color:#4682B4;
-color: white;
-}
-p{
-  color:DarkGreen;
-}
-</style>
-</head>
-<body>
-<br>
-<h1>Данное правило применяется к заголовку 1 уровня, <br><br>
-окрашивает фон блока заголовка в цвет - #343745 и цвет шрифта белым.</h1><br>
-<h3>
-<p style="color:#B22222">Стиль подключается при помощи атрибута style для тега `p`
-</p><br>
-<p>Стиль подключается при помощи тега `style` </p><br>
-</h3>
-</body>
+<html>
+	<body>
+		<h2 style="color:DarkGreen;">Как задать цвет текста с помощью названий цветов HTML?</h2>
+		<h3 style="color:DarkRed;">Добавьте атрибут стиля к текстовому элементу, который вы хотите раскрасить.</h3>
+    <h4 style="color:DarkBlue;">Вы можете использовать более чем 140 именованных цветов.</h4>
+	</body>
 </html>
+```
+####Стиль подключается при помощи атрибута style.
+```
+<html>
+	<head>
+		<style>
+			h2 {
+				color:DarkGreen;
+			}
+			h3 {
+				color:DarkRed;
+			}
+			h4 {
+				color:DarkBlue;
+			}
+		</style>
+	</head>
+	<body>
+		<h2 style="color:DarkGreen;">Как задать цвет текста с помощью названий цветов HTML?</h2>
+		<h3 style="color:DarkRed;">Добавьте атрибут стиля к текстовому элементу, который вы хотите раскрасить.</h3>
+    <h4 style="color:DarkBlue;">Вы можете использовать более чем 140 именованных цветов.</h4>
+	</body>
+</html>
+```
+
+```
 ```
