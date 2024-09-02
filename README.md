@@ -119,6 +119,7 @@ padding-bottom - нижний внутренний отступ
 padding-left - левый внутренний отступ
 padding - внутренний отступ со всех сторон (краткая запись)
 ```
+![image](https://github.com/user-attachments/assets/eb020748-0f42-4c1c-bd18-603ab21cedea)
 
 
 
