@@ -26,4 +26,4 @@
 
 ``display`` - Определяет, как элемент должен быть показан в документе
 
-[ссылка](Таблица цветов в HTML)(https://colorscheme.ru/html-colors.html)
+[Таблица цветов в HTML](https://colorscheme.ru/html-colors.html)
