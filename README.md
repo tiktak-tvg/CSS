@@ -109,6 +109,7 @@ margin-bottom - нижний внешний отступ
 margin-left - левый внешний отступ
 margin - внешний отступ со всех сторон (краткая запись)
 ``` 
+![image](https://github.com/user-attachments/assets/e10819e3-a7e7-4227-95c4-5dc85217787e)
 
 **За величину внутреннего отступа отвечает свойство padding**
 
