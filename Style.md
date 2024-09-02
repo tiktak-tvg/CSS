@@ -102,7 +102,28 @@ h3 {
 #### Цвет фона для определенного элемента HTML.
 
 ```
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body>
+<p>Название цвета "YellowGreen":</p>
+	<h2 style="background-color:rgb(154, 205, 50);">rgb(154, 205, 50)</h2>
+	<h2 style="background-color:#9ACD32;">#9ACD32</h1>
+	<h2 style="background-color:hsl(80, 61%, 50%);">hsl(80, 61%, 50%)</h2>
 
+	<p>Значения RGBA цвета "YellowGreen" с различной прозрачностью:</p>
+		<h2 style="background-color:rgba(154, 205, 50, 0.2);">rgba(154, 205, 50, 0.2)</h2>
+		<h2 style="background-color:rgba(154, 205, 50, 0.5);">rgba(154, 205, 50, 0.5)</h2>
+		<h2 style="background-color:rgba(154, 205, 50, 0.8);">rgba(154, 205, 50, 0.8)</h2>
+
+		<p>Значения HSLA цвета «YellowGreen» с различной прозрачностью:</p>
+			<h2 style="background-color:hsla(80, 61%, 50%, 0.2);">hsla(80, 61%, 50%, 0.2)</h2>
+			<h2 style="background-color:hsla(80, 61%, 50%, 0.5);">hsla(80, 61%, 50%, 0.5)</h2>
+			<h2 style="background-color:hsla(80, 61%, 50%, 0.8);">hsla(80, 61%, 50%, 0.8)</h2>
+	</body>
+</html>
 ```
 
 
