@@ -82,6 +82,8 @@ h3 {
 
 ## Цвет текста с использованием цветовых кодов HSL или HSLA.
 
+[Примеры цветов HSL](https://www.w3.org/TR/css-color-4/#named-colors)
+
 ```
 <!DOCTYPE html>
 <head>
@@ -96,6 +98,12 @@ h3 {
 </html>
 ```
 
+## Фоновый цвет – Background Color.
+#### Цвет фона для определенного элемента HTML.
+
+```
+
+```
 
 
 
