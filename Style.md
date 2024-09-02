@@ -2,37 +2,101 @@
 #### Стиль подключается при помощи атрибута style и раскрашиваем по тегам.
 
 ```
-<html>
-	<body>
-		<h2 style="color:DarkGreen;">Как задать цвет текста с помощью названий цветов HTML?</h2>
-		<h3 style="color:DarkRed;">Добавьте атрибут стиля к текстовому элементу, который вы хотите раскрасить.</h3>
-    <h4 style="color:DarkBlue;">Вы можете использовать более чем 140 именованных цветов.</h4>
-	</body>
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body>
+	<h1 style="color:DarkGreen;">Как задать цвет текста с помощью названий цветов HTML?</h1>
+	<h2 style="color:DarkRed;">Добавьте атрибут стиля к текстовому элементу, который вы хотите раскрасить.</h2>
+	<h3 style="color:DarkBlue;">Вы можете использовать более чем 140 именованных цветов.</h3>
+</body>
 </html>
 ```
 #### Стиль подключается при помощи атрибута style.
 ```
-<html>
-	<head>
-		<style>
-			h2 {
-				color:DarkGreen;
-			}
-			h3 {
-				color:DarkRed;
-			}
-			h4 {
-				color:DarkBlue;
-			}
-		</style>
-	</head>
-	<body>
-		<h2 style="color:DarkGreen;">Как задать цвет текста с помощью названий цветов HTML?</h2>
-		<h3 style="color:DarkRed;">Добавьте атрибут стиля к текстовому элементу, который вы хотите раскрасить.</h3>
-    <h4 style="color:DarkBlue;">Вы можете использовать более чем 140 именованных цветов.</h4>
-	</body>
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+h1 {
+    color:DarkGreen;
+}
+h2 {
+    color:DarkRed;
+}
+h3 {
+    color:DarkBlue;
+}
+</style>
+</head>
+<body>
+	<h1 style="color:DarkGreen;">Как задать цвет текста с помощью названий цветов HTML?</h1>
+	<h2 style="color:DarkRed;">Добавьте атрибут стиля к текстовому элементу, который вы хотите раскрасить.</h2>
+	<h3 style="color:DarkBlue;">Вы можете использовать более чем 140 именованных цветов.</h3>
+</body>
+</html>
+```
+## Цвет текста с использованием цветовых кодов RGB, RGBA или HEX.
+
+```
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+</head>
+<body>
+	<h1 style="color:rgb(50,150,200);">Способы внедрения стилей</h1>
+	<h2 style="color:rgba(220,30,100,1);">Способы внедрения стилей</h2>
+	<h3 style="color:#1A8D7E">Способы внедрения стилей</h3>
+</body>
 </html>
 ```
 
 ```
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+	h1 {
+	color:rgb(50,150,200);
+}
+	h2 {
+	color:rgba(220,30,100,1);
+}
+	h3 {
+	color:#1A8D7E;
+}
+</style>
+</head>
+<body>
+	<h1>Способы внедрения стилей</h1>
+	<h2>Способы внедрения стилей</h2>
+	<h3>Способы внедрения стилей</h3>
+</body>
+</html>
 ```
+
+## Цвет текста с использованием цветовых кодов HSL или HSLA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
